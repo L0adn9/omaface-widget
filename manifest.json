@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.l0adn9.omaface-bar",
+  "name": "omaFace",
+  "version": "1.0.0",
+  "author": "L0adn9",
+  "license": "MIT",
+  "homepage": "https://github.com/L0adn9/omaface-widget",
+  "description": "Face unlock for Omarchy in the bar: the omaFace mark comes alive while a scan runs, and a panel shows where face unlock is used and opens its settings. Without omaFace installed, it shows how to install it.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "omaFace",
+    "description": "Face unlock status, live scans, and a way into omaFace settings.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
